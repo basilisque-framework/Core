@@ -20,12 +20,13 @@
   
   <!-- define NuGet package versions -->
   <ItemGroup>
-    <PackageVersion Include="Basilisque.CommonFrameworkBuild" Version="2.0.0-Preview00008" />
-    <!--<PackageVersion Include="Basilisque.DependencyInjection" Version="1.1.0-Preview00016" />-->
+    <PackageVersion Include="Basilisque.CommonFrameworkBuild" Version="2.0.0-Preview00010" />
+    <PackageVersion Include="Basilisque.DependencyInjection" Version="1.1.0-Preview00019" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="10.0.12" />
 
     <PackageVersion Include="NSubstitute" Version="6.0.0" />
     <PackageVersion Include="TUnit" Version="1.60.0" />
-    <PackageVersion Include="GitVersion.MsBuild" Version="6.7.0" />
+    <PackageVersion Include="GitVersion.MsBuild" Version="6.8.2" />
   </ItemGroup>
   
   <!-- Common Packages -->
@@ -39,9 +40,9 @@
     </PackageReference>
   </ItemGroup>
 
-  <!-- Common Packages (not for Code Analysis projects) -->
+  <!-- Common Packages -->
   <ItemGroup>
-    <!--<PackageReference Include="Basilisque.DependencyInjection" />-->
+    <PackageReference Include="Basilisque.DependencyInjection" />
   </ItemGroup>
   
   <!-- Common Usings -->
