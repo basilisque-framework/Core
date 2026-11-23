@@ -40,6 +40,8 @@ jobs:
       projectOrSolution: 'src/Basilisque.Core.slnx'
       sonarProjectKey: 'basilisque-framework_Core'
       sonarOrganization: 'basilisque-framework'
-      publishTargetFramework: 'net10.0'
+      dotNetVersion: |
+        10.0.x
+        11.0.x
       runDotnetPack: true
     secrets: inherit

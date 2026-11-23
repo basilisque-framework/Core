@@ -29,5 +29,7 @@ It mainly contains common interfaces and util functions.
 ## Getting Started
 Install the NuGet package [Basilisque.Core](https://www.nuget.org/packages/Basilisque.Core).  
 
+The package targets .NET 10 (`net10.0`) and .NET 11 (`net11.0`). Building the repository requires the .NET 11 SDK. Running the full test suite also requires the .NET 10 runtime.
+
 ## License
 The Basilisque framework (including this repository) is licensed under the [Apache License, Version 2.0](LICENSE.txt).
